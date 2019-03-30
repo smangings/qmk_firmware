@@ -25,5 +25,8 @@
 void encoder_init(void);
 void encoder_read(void);
 
+__attribute__((weak))
 void encoder_update_kb(int8_t index, bool clockwise);
+
+__attribute__((weak))
 void encoder_update_user(int8_t index, bool clockwise);
