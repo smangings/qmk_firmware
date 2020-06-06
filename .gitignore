@@ -99,6 +99,7 @@ __pycache__
 
 # Allow to exist but don't include it in the repo
 user_song_list.h
+<<<<<<< HEAD
 
 # clangd
 compile_commands.json
@@ -107,3 +108,6 @@ compile_commands.json
 
 # VIA(L) json files that don't belong in QMK repo
 via*.json
+# ignore secret files
+secrets.c
+secrets.h
